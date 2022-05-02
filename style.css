@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-   
 }
 
 
 .slider{
+    display: flex;
     background-color: rgb(255, 255, 255);
     justify-content: center;
     display: flex;
@@ -14,28 +14,20 @@
     align-items: center;
     justify-content: center;
     width: 95vw;
-    height: 60vh;
+    height: 40vh;
     
 }
 .carousel-inner{
-  
-width: 95vw;
-height: 40vh;
-background-size:cover;
+ width: 95vw;
+ height: 40vh;
+ background-size:contain;
 }
 
-.imgs{
-    
-    align-content: space-between;
-    margin-top: 30px;
-    width: 95vw;
-    height: 20vh;
-    background-color:rgb(128, 4, 4);
+.carousel-inner img{
+ width: auto;
+ height: 40vh;
 }
-.imgs img{
-    width: auto;
-    height: 200px;
-}
+
 
 h3{
     color: rgb(0, 0, 0);
@@ -44,7 +36,7 @@ h3{
 .section{
  
     text-align: center;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     margin: auto;
     margin-bottom: 10px;
@@ -55,7 +47,7 @@ h3{
     padding: 15px;
     margin: auto;
     text-align: justify;
-    background-color: white;
+    background-color:rgb(250, 248, 248);
     margin-bottom: 10px;
     width: 95%;
 }
